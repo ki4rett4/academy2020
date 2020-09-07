@@ -22,3 +22,17 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 /.idea/
+
+
+
+06/lesson06-coroutine/.idea/*
+07/lesson07-coroutine/.idea/*
+08/lesson08-flows/.idea/*
+
+06/lesson06-coroutine/.gradle/
+07/lesson07-coroutine/.gradle/
+08/lesson08-flows/.gradle/
+
+06/lesson06-coroutine/build/
+07/lesson07-coroutine/build/
+08/lesson08-flows/build/
