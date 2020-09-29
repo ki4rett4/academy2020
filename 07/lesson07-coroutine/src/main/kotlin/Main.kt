@@ -25,7 +25,7 @@ fun main() {
         /*launch { function1() }
         launch { function2() }*/
 
-        //2 - withContext() - sequencial
+        //2 - withContext() - sequencial execution inside
         /*resultOne = withContext(Dispatchers.IO){function1()}
         resultTwo = withContext(Dispatchers.IO){function2()}*/
 

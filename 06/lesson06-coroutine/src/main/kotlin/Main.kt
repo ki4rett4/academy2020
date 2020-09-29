@@ -34,7 +34,8 @@ fun main() = runBlocking {
     //launch{ task1New() }
     //launch{ task2New() }
 
-    //yield give priority to other thread,in this case give priority to this coroutine instead of runBlocking
+    //yield give priority to other thread,
+    in this case give priority to this coroutine instead of runBlocking
     launch{
         println("Hello")
         delay(5000)
@@ -68,7 +69,8 @@ fun coroutineExecution(){
         task2()
     }
 
-    //Thread.sleep(3000) for see print of tasks because work is in parallel and coroutine are in another thread
+    //Thread.sleep(3000)
+    // for see print of tasks because work is in parallel and coroutine are in another thread
 }
 
 //Playing with runBlocking
